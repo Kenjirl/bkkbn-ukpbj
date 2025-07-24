@@ -62,6 +62,8 @@ body {
 header {
     width: 100%;
     position: relative;
+    /* position: sticky;
+    top: 0; */
     z-index: 999;
 }
 
@@ -320,10 +322,7 @@ main {
 
 .footer-links-list a {
     width: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+    display: inline-block;
 }
 
 .footer-links-list i {
@@ -453,6 +452,10 @@ main {
     .nav-links .link-btn:hover .dropdown-content,
     .nav-links .link-btn:focus .dropdown-content {
         display: block;
+    }
+
+    .sidebar {
+        display: none;
     }
 
     .sidebar-link-wrapper {
