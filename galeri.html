@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#7dbde5" />
+    <meta name="description" content="Website resmi Unit Kerja Pengadaan Barang/Jasa BKKBN. Informasi mengenai pengadaan barang dan jasa pemerintah di Kementrian Kependudukan dan Pembangunan Keluarga.">
+    <meta name="keywords" content="UKPBJ, BKKBN, Pengadaan Barang, Pengadaan Jasa, Kementrian Kependudukan, Pembangunan Keluarga, Informasi Pengadaan, Layanan Pengadaan, Galeri UKPBJ, Tentang UKPBJ">
+    <meta name="author" content="UKPBJ BKKBN">
+
+    <link rel="shortcut icon" href="./src/icon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/icon/favicon-16x16.png">
+    <link rel="manifest" href="./src/icon/site.webmanifest">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/galeri.css">
+    <script src="https://kit.fontawesome.com/5b8fa639bb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css"/>
+
+    <title>Layanan | UKPBJ BKKBN</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <div class="logo-container">
+            <div>
+                <a href="https://www.kemendukbangga.go.id/" target="_blank">
+                    <img src="./src/imgs/logo/bkkbn.png" alt="Logo BKKBN">
+                </a>
+            </div>
+            <div>
+                <a href="./index.html">
+                    <img src="./src/imgs/logo/ukpbj.png" alt="Logo UKPBJ">
+                </a>
+            </div>
+        </div>
+        <div class="header-divider"></div>
+        <nav class="nav">
+            <div class="nav-links">
+                <div class="nav-link-wrapper">
+                    <a class="link-btn" href="./index.html">Beranda</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <button class="link-btn">Informasi</button>
+
+                    <div class="dropdown-content dropdown-content-info">
+                        <a target="_blank" href="https://jdih.lkpp.go.id/regulation/index">Peraturan</a>
+                        <a target="_blank" href="https://inaproc.id/unduh">Panduan</a>
+                        <a target="_blank" href="https://drive.google.com/drive/folders/1WjPnDzo-bfG_wsj7fn0tL76ebXLcBjLx?usp=sharing">Standar Operasional Prosedur</a>
+                        <a target="_blank" href="#">Infografis PBJ</a>
+                    </div>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a class="link-btn" href="./layanan.html">Layanan</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a class="link-btn" href="./galeri.html">Galeri</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <button class="link-btn">Tentang</button>
+
+                    <div class="dropdown-content dropdown-content-about">
+                        <a target="_blank" href="https://docs.google.com/document/d/1t_ypeiMoDpG4g_3FcoXD9DPnKju7GMfVj5QrEqJnckg/edit?tab=t.0">UKPBJ</a>
+                        <a href="#">Tugas dan Fungsi</a>
+                        <a href="#">Struktur Organisasi</a>
+                        <a href="#">Struktur Anggota</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-btn-wrapper">
+                <button class="toggle-nav-btn" id="open_nav_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <div class="logo-container">
+            <div>
+                <a target="_blank" href="https://www.kemendukbangga.go.id/">
+                    <img src="./src/imgs/logo/bkkbn.png" alt="Logo BKKBN">
+                </a>
+            </div>
+            <div>
+                <a href="/index.html">
+                    <img src="./src/imgs/logo/ukpbj.png" alt="Logo UKPBJ">
+                </a>
+            </div>
+        </div>
+        <div class="header-divider"></div>
+
+        <div class="nav-btn-wrapper">
+            <button class="toggle-nav-btn" id="close_nav_btn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <div class="sidebar-links">
+            <div class="sidebar-link-wrapper">
+                <a class="link-btn" href="./index.html">Beranda</a>
+            </div>
+
+            <div class="sidebar-link-wrapper">
+                <div class="dropdown-btn-wrapper">
+                    <button class="link-btn">Informasi</button>
+
+                    <button class="dropdown-btn">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </div>
+
+                <div class="dropdown-content dropdown-content-info">
+                    <a target="_blank" href="https://jdih.lkpp.go.id/regulation/index">Peraturan</a>
+                    <a target="_blank" href="https://inaproc.id/unduh">Panduan</a>
+                    <a target="_blank" href="https://drive.google.com/drive/folders/1WjPnDzo-bfG_wsj7fn0tL76ebXLcBjLx?usp=sharing">Standar Operasional Prosedur</a>
+                    <a target="_blank" href="#">Infografis PBJ</a>
+                </div>
+            </div>
+
+            <div class="sidebar-link-wrapper">
+                <a class="link-btn" href="./layanan.html">Layanan</a>
+            </div>
+
+            <div class="sidebar-link-wrapper">
+                <a class="link-btn" href="./galeri.html">Galeri</a>
+            </div>
+
+            <div class="sidebar-link-wrapper">
+                <div class="dropdown-btn-wrapper">
+                    <button class="link-btn">Tentang</button>
+
+                    <button class="dropdown-btn">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </div>
+
+                <div class="dropdown-content dropdown-content-about">
+                    <a target="_blank" href="https://docs.google.com/document/d/1t_ypeiMoDpG4g_3FcoXD9DPnKju7GMfVj5QrEqJnckg/edit?tab=t.0">UKPBJ</a>
+                    <a href="#">Tugas dan Fungsi</a>
+                    <a href="#">Struktur Organisasi</a>
+                    <a href="#">Struktur Anggota</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTENT -->
+    <main class="beranda">
+        <h1>Galeri</h1>
+
+        <section class="events-container">
+            <!-- 1. Kegiatan Survei Penyedia -->
+            <div class="event-wrapper">
+                <div class="event-info-container">
+                    <h2 class="event-title">
+                        Kegiatan Survei Penyedia oleh UKPBJ Kemendukbangga/BKKBN
+                    </h2>
+                    <p class="event-description">
+                        Sebelum menetapkan penyedia terpilih, tim Pengelola Pengadaan Barang/Jasa dari UKPBJ Kemendukbangga/BKKBN melaksanakan kegiatan survei lapangan terhadap calon penyedia. Kegiatan ini bertujuan untuk melakukan pembuktian atas kualifikasi yang telah disampaikan dalam dokumen penawaran.
+                        <br><br>
+                        Melalui survei ini, tim memastikan bahwa penyedia benar-benar memiliki kemampuan teknis, sumber daya, pengalaman, dan komitmen yang sesuai dengan kebutuhan pengadaan. Proses ini menjadi bagian penting dalam menjamin bahwa penyedia yang dipilih adalah yang paling sesuai dengan identifikasi kebutuhan, baik dari aspek mutu, kapasitas, hingga kesesuaian teknis lainnya.
+                        <br><br>
+                        Kegiatan ini juga merupakan wujud komitmen UKPBJ Kemendukbangga/BKKBN dalam mewujudkan proses pengadaan yang akuntabel, transparan, dan tepat sasaran.
+                    </p>
+                    <div class="event-button-container">
+                        <button class="event-description-toggle-btn">
+                            ... baca selengkapnya 
+                        </button>
+                    </div>
+                </div>
+
+                <div class="event-gallery-wrapper">
+                    <div class="event-gallery gallery-survei-penyedia">
+                        <img tabindex="0" loading="lazy" src="./src/imgs/galeri/survei-penyedia/1.jpeg" 
+                            alt="Kegiatan Survei Penyedia - 1" 
+                            data-caption="Kegiatan Survei Penyedia - 1" 
+                            data-fancybox="survei-penyedia">
+                        <img tabindex="0" loading="lazy" src="./src/imgs/galeri/survei-penyedia/2.jpeg" 
+                            alt="Kegiatan Survei Penyedia - 2" 
+                            data-caption="Kegiatan Survei Penyedia - 2" 
+                            data-fancybox="survei-penyedia">
+                        <img tabindex="0" loading="lazy" src="./src/imgs/galeri/survei-penyedia/3.jpeg" 
+                            alt="Kegiatan Survei Penyedia - 3" 
+                            data-caption="Kegiatan Survei Penyedia - 3" 
+                            data-fancybox="survei-penyedia">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Kegiatan Rapat Koordinasi -->
+            <div class="event-wrapper">
+                <div class="event-info-container">
+                    <h2 class="event-title">
+                        Kegiatan Rapat Koordinasi Pengadaan oleh UKPBJ Kemendukbangga/BKKBN
+                    </h2>
+                    <p class="event-description">
+                        Sebagai bagian dari upaya mewujudkan proses pengadaan yang tepat sasaran, UKPBJ Kemendukbangga/BKKBN secara rutin menggelar rapat koordinasi bersama berbagai pihak terkait. Rapat ini menjadi wadah untuk membahas dan menyelaraskan kebutuhan pengadaan yang dilakukan oleh kementerian/lembaga.
+                        <br><br>
+                        Peserta rapat terdiri dari Pejabat Pengadaan atau Pokja Pemilihan dari UKPBJ, yang berkoordinasi dengan Pejabat Pembuat Komitmen (PPK), Pengguna Anggaran atau Kuasa Pengguna Anggaran, serta pihak penyedia atau calon penyedia, dan unsur terkait lainnya.
+                        <br><br>
+                        Melalui forum ini, dilakukan identifikasi kebutuhan, klarifikasi teknis, evaluasi proses, hingga penyusunan langkah strategis guna memastikan bahwa setiap pengadaan berjalan sesuai regulasi, transparan, dan menghasilkan output yang optimal bagi instansi.
+                    </p>
+                    <div class="event-button-container">
+                        <button class="event-description-toggle-btn">
+                            ... baca selengkapnya 
+                        </button>
+                    </div>
+                </div>
+
+                <div class="event-gallery-wrapper">
+                    <div class="event-gallery gallery-rapat-koordinasi">
+                        <img tabindex="0" loading="lazy" src="./src/imgs/galeri/rapat-koordinasi/1.jpeg" 
+                            alt="Kegiatan Rapat Koordinasi - 1" 
+                            data-caption="Kegiatan Rapat Koordinasi - 1" 
+                            data-fancybox="rapat-koordinasi">
+                        <img tabindex="0" loading="lazy" src="./src/imgs/galeri/rapat-koordinasi/2.jpeg" 
+                            alt="Kegiatan Rapat Koordinasi - 2" 
+                            data-caption="Kegiatan Rapat Koordinasi - 2" 
+                            data-fancybox="rapat-koordinasi">
+                        <img tabindex="0" loading="lazy" src="./src/imgs/galeri/rapat-koordinasi/3.jpeg" 
+                            alt="Kegiatan Rapat Koordinasi - 3" 
+                            data-caption="Kegiatan Rapat Koordinasi - 3" 
+                            data-fancybox="rapat-koordinasi">
+                        <img tabindex="0" loading="lazy" src="./src/imgs/galeri/rapat-koordinasi/4.jpeg" 
+                            alt="Kegiatan Rapat Koordinasi - 4" 
+                            data-caption="Kegiatan Rapat Koordinasi - 4" 
+                            data-fancybox="rapat-koordinasi">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Kegiatan Terima Kunjungan Tamu -->
+            <div class="event-wrapper">
+                <div class="event-info-container">
+                    <h2 class="event-title">
+                        Kegiatan Penerimaan Kunjungan Tamu di UKPBJ Kemendukbangga/BKKBN
+                    </h2>
+                    <p class="event-description">
+                        UKPBJ Kemendukbangga/BKKBN secara rutin menerima kunjungan dari berbagai pihak, baik dari instansi pemerintah, calon penyedia, maupun mitra kerja. Kunjungan ini dilakukan dalam rangka diskusi, verifikasi data, penyampaian penawaran produk/jasa, hingga menjaga hubungan baik dan silaturahmi antar pemangku kepentingan.
+                        <br><br>
+                        Penerimaan tamu dilakukan oleh anggota UKPBJ yang sedang bertugas dan memiliki kapasitas untuk menindaklanjuti maksud dan tujuan kunjungan tersebut. Kegiatan ini menjadi bagian dari komitmen UKPBJ untuk membangun komunikasi terbuka, transparan, dan kolaboratif dalam mendukung kelancaran proses pengadaan barang/jasa di lingkungan Kemendukbangga/BKKBN.
+                    </p>
+                    <div class="event-button-container">
+                        <button class="event-description-toggle-btn">
+                            ... baca selengkapnya 
+                        </button>
+                    </div>
+                </div>
+
+                <div class="event-gallery-wrapper">
+                    <div class="event-gallery gallery-terima-kunjungan-tamu">
+                        <img tabindex="0" loading="lazy" src="./src/imgs/galeri/terima-kunjungan-tamu/1.jpeg" 
+                            alt="Kegiatan Terima Kunjungan Tamu - 1" 
+                            data-caption="Kegiatan Terima Kunjungan Tamu - 1" 
+                            data-fancybox="terima-kunjungan-tamu">
+                        <img tabindex="0" loading="lazy" src="./src/imgs/galeri/terima-kunjungan-tamu/2.jpeg" 
+                            alt="Kegiatan Terima Kunjungan Tamu - 2" 
+                            data-caption="Kegiatan Terima Kunjungan Tamu - 2" 
+                            data-fancybox="terima-kunjungan-tamu">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Kegiatan HARGANAS ke 32 -->
+            <div class="event-wrapper">
+                <div class="event-info-container">
+                    <h2 class="event-title">
+                        Kegiatan memperingati HARGANAS ke 32 di Kemendukbangga/BKKBN oleh UKPBJ
+                    </h2>
+                    <p class="event-description">
+                        Hari Keluarga Nasional ke-32 diperingati pada tanggal 29 Juni 2025, dengan tema "Dari Keluarga untuk Indonesia Maju". Peringatan ini menekankan pentingnya peran keluarga sebagai fondasi utama dalam pembangunan bangsa dan pembentukan karakter.
+                        <br><br>
+                        Peringatan Hari Keluarga Nasional (HARGANAS) ke-32 tahun 2025 ini bertujuan untuk memperkuat ketahanan keluarga melalui berbagai kegiatan, diharapkan keluarga Indonesia semakin kuat dan mampu menghadapi tantangan zaman. Keluarga yang berkualitas akan melahirkan generasi penerus bangsa yang sehat, cerdas, dan berdaya saing. Pemerintah, masyarakat, dan berbagai pihak terkait diharapkan bersinergi dalam mendukung program pembangunan keluarga. Dengan keluarga yang kuat, diharapkan Indonesia dapat mencapai kemajuan dan kesejahteraan di masa depan menuju Indonesia Emas 2045.
+                        <br><br>
+                        Berbagai kegiatan dilakukan dalam rangka memperingati Harganas ke-32, antara lain Apel peringatan yang dilakukan di berbagai daerah dengan melibatkan berbagai pihak terkait, seperti pemerintah daerah, instansi terkait, dan organisasi masyarakat. Kirab Bangga Kencana yang bertujuan untuk mengkampanyekan program pembangunan keluarga, kependudukan, dan keluarga berencana (Bangga Kencana). Penyuluhan dan sosialisasi mengenai pentingnya keluarga berkualitas, program KB, dan upaya pencegahan stunting. Berbagai kegiatan sosial dan budaya yang melibatkan keluarga, seperti lomba-lomba, bazar, dan pertunjukan seni. Peringatan Harganas ke-32 ini menjadi pengingat bahwa keluarga adalah unit terkecil dalam masyarakat yang memiliki peran sentral dalam pembangunan bangsa. Dengan keluarga yang kuat, Indonesia akan semakin maju dan sejahtera.
+                        <br><br>
+                        UKPBJ Kemendukbangga/BKKBN sebagai bagian dari kementerian/lembaga turut memeriahkan HARGANAS ke 32 dengan mengikuti berbagai kegiatan diatas.
+                    </p>
+                    <div class="event-button-container">
+                        <button class="event-description-toggle-btn">
+                            ... baca selengkapnya 
+                        </button>
+                    </div>
+                </div>
+
+                <div class="event-gallery-wrapper">
+                    <div class="event-gallery gallery-harganas-32">
+                        <img tabindex="0" loading="lazy" src="./src/imgs/galeri/harganas-32/1.jpeg" 
+                            alt="Kegiatan HARGANAS ke 32 - 1" 
+                            data-caption="Kegiatan HARGANAS ke 32 - 1" 
+                            data-fancybox="harganas-32">
+                        <img tabindex="0" loading="lazy" src="./src/imgs/galeri/harganas-32/2.jpeg" 
+                            alt="Kegiatan HARGANAS ke 32 - 2" 
+                            data-caption="Kegiatan HARGANAS ke 32 - 2" 
+                            data-fancybox="harganas-32">
+                        <img tabindex="0" loading="lazy" src="./src/imgs/galeri/harganas-32/3.jpeg" 
+                            alt="Kegiatan HARGANAS ke 32 - 3" 
+                            data-caption="Kegiatan HARGANAS ke 32 - 3" 
+                            data-fancybox="harganas-32">
+                        <img tabindex="0" loading="lazy" src="./src/imgs/galeri/harganas-32/4.jpeg" 
+                            alt="Kegiatan HARGANAS ke 32 - 4" 
+                            data-caption="Kegiatan HARGANAS ke 32 - 4" 
+                            data-fancybox="harganas-32">
+                        <img tabindex="0" loading="lazy" src="./src/imgs/galeri/harganas-32/5.jpeg" 
+                            alt="Kegiatan HARGANAS ke 32 - 5" 
+                            data-caption="Kegiatan HARGANAS ke 32 - 5" 
+                            data-fancybox="harganas-32">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content-container">
+            <div class="footer-content">
+                <div class="logo-container">
+                    <div>
+                        <img src="./src/imgs/logo/ukpbj.png" alt="Logo UKPBJ">
+                    </div>
+                    <div>
+                        <img src="./src/imgs/logo/bkkbn.png" alt="Logo BKKBN">
+                    </div>
+                </div>
+
+                <div class="footer-image-container">
+                    <img class="footer-image"
+                        src="./src/imgs/footer/indonesia.png" alt="Pulau Indonesia">
+                </div>
+
+                <p>
+                    "Unit Kerja Pengadaan Barang/Jasa <br>
+                    Biro Umum dan Pengelolaan Barang Milik Negara <br>
+                    Kementrian Kependudukan dan Pembangunan Keluarga (BKKBN)"
+                </p>
+            </div>
+
+            <div class="footer-content footer-links-container">
+                <div class="footer-links">
+                    <div class="footer-links-title">
+                        <h2>Tentang</h2>
+                    </div>
+                    <div class="footer-links-list">
+                        <ul>
+                            <li><a target="_blank" href="https://docs.google.com/document/d/1t_ypeiMoDpG4g_3FcoXD9DPnKju7GMfVj5QrEqJnckg/edit?tab=t.0">UKPBJ</a></li>
+                            <li><a href="#">Tugas dan Fungsi</a></li>
+                            <li><a href="#">Struktur Organisasi</a></li>
+                            <li><a href="#">Struktur Anggota</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-links-title">
+                        <h2>Tautan</h2>
+                    </div>
+                    <div class="footer-links-list">
+                        <ul>
+                            <li><a target="_blank" href="https://www.kemendukbangga.go.id/">Kementrian Kependudukan dan Pembangunan Keluarga/BKKBN</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-content footer-links-container">
+                <div class="footer-links">
+                    <div class="footer-links-title">
+                        <h2>Kontak Kami</h2>
+                    </div>
+                    <div class="footer-links-list">
+                        <ul>
+                            <li><a target="_blank" href="#">
+                                <i class="fa-solid fa-phone"></i>
+                                (021) 8009029 ext 741
+                            </a></li>
+                            <li><a target="_blank" href="#">
+                                <i class="fa-solid fa-fax"></i>
+                                (021) 8097387
+                            </a></li>
+                            <li><a target="_blank" href="mailto:lpse@bkkbn.go.id">
+                                <i class="fa-solid fa-envelope"></i> 
+                                email@gmail.com</a>
+                            </li>
+                            <li><a target="_blank" href="https://maps.app.goo.gl/AW9bTUop85dtAwua7">
+                                <i class="fa-solid fa-map-marker-alt"></i> 
+                                Jl. Permata No. 1 Halim Perdanakusuma Jakarta Timur 13650
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="copyright-container">
+            <p>
+                Copyright U<span class="text-red">K</span>PBJ BKKBN &copy; 2025
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./src/js/sidebar.js"></script>
+    <script src="./src/js/galeri.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind('[data-fancybox="survei-penyedia"]', {});
+        Fancybox.bind('[data-fancybox="rapat-koordinasi"]', {});
+        Fancybox.bind('[data-fancybox="terima-kunjungan-tamu"]', {});
+        Fancybox.bind('[data-fancybox="harganas-32"]', {});
+    </script>
+</body>
+</html>
