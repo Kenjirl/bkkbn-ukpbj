@@ -92,7 +92,6 @@
 /* Gambar yang sedang di-hover/focus kembali normal + efek */
 .event-gallery img:hover, 
 .event-gallery img:focus {
-    opacity: 1 !important;
     filter: brightness(1) !important;
     z-index: 10;
     position: relative;

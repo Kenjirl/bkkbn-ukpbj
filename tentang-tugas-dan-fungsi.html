@@ -15,10 +15,11 @@
     <link rel="manifest" href="./src/icon/site.webmanifest">
 
     <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="stylesheet" href="./src/css/beranda.css">
+    <link rel="stylesheet" href="./src/css/tentang.css">
     <script src="https://kit.fontawesome.com/5b8fa639bb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css"/>
 
-    <title>UKPBJ BKKBN</title>
+    <title>Tugas dan Fungsi | UKPBJ BKKBN</title>
 </head>
 <body>
     <!-- NAVBAR -->
@@ -155,58 +156,118 @@
     </div>
 
     <!-- CONTENT -->
-    <main class="beranda">
-        <h1>Unit Kerja Pengadaan Barang/Jasa</h1>
+    <main class="beranda tdf">
+        <h1>Tugas & Fungsi</h1>
 
-        <section class="banner">
-            <div>
-                <img src="./src/imgs/beranda/gedung.jpg" alt="Gedung BKKBN">
-                <div class="whiteout-effect"></div>
+        <section class="tugas-dan-fungsi">
+            <div class="role-btn-container">
+                <button data-content="kepala" class="role-btn active">
+                    Kepala UKPBJ
+                </button>
+                <button data-content="umum" class="role-btn">
+                    UKPBJ pada Kemendukbangga/ BKKBN
+                </button>
             </div>
 
-            <div class="content">
-                <p>
-                    Demi menyelenggarakan dukungan 
-                    pengadaan barang dan jasa pemerintah di <br><br>
-                    <span>
-                        Kementerian 
-                        <span class="text-blue">Kependudukan</span> dan 
-                        <span class="text-yellow">Pembangunan Keluarga</span> 
-                        (Kemendukbangga)/BKKBN
-                    </span>
-                    <br><br>
-                    Menteri/Kepala lembaga membentuk <br><br>
-                    <span>
-                        Unit 
-                        <span class="text-red">
-                            Kerja</span> 
-                        Pengadaan Barang/Jasa 
-                        (U<span class="text-red">K</span>PBJ)
-                    </span><br><br>
-                    yang berbentuk struktural pada Biro Umum dan Penegelolaan Barang Milik Negara, 
-                    yang mana menjadi pusat keunggulan Pengadaan Barang/Jasa.
-                </p>
-            </div>
-        </section>
+            <div class="role-content-container">
+                <!-- KEPALA -->
+                <div data-content="kepala" class="role-content active">
+                    <h2 class="content-title">Kepala UKPBJ</h2>
 
-        <section class="quick-access">
-            <div class="quick-access-title">
-                <h2>Akses Cepat</h2>
-            </div>
+                    <p>
+                        <br>
+                        Dalam pelaksanaan tugas dan fungsi, Kepala UKPBJ melakukan:
+                        <br><br>
+                    </p>
 
-            <div class="quick-access-links-container">
-                <a target="_blank" 
-                    href="https://spse.inaproc.id/kemendukbangga" 
-                    class="quick-access-link">
-                    <img src="./src/imgs/beranda/icons/device.png" alt="Devices Icon">
-                    <span>Layanan Pengadaan Secara Elektronik (LPSE)</span>
-                </a>
-                <a target="_blank" 
-                    href="https://katalog.inaproc.id/" 
-                    class="quick-access-link">
-                    <img src="./src/imgs/beranda/icons/catalogue.png" alt="Catalogue Icon">
-                    <span>Layanan E-Katalog</span>
-                </a>
+                    <ol>
+                        <li>Koordinasi dengan PA serta KPA/PPK Pusat dan Perwakilan BKKBN Provinsi; dan Pemilihan Pokja</li>
+                        <li>Membentuk/ membubarkan/ menetapkan/ menempatkan/ memindahkan/ menugaskan anggota Pokja Pemilihan;</li>
+                        <li>Menugaskan Pengelola PBJ dalam pelaksanaan tugas dan fungsi UKPBJ BKKBN;</li>
+                        <li>Menyampaikan laporan pelaksanaan tugas dan fungsi UKPBJ BKKBN kepada Kepala BKKBN melalui Sekretaris Utama secara periodik setiap 6 (enam) bulan atau sewaktu-waktu apabila;
+                            <br>
+                            <ul>
+                                <li>Penugasan pokja pemilihan dan pejabat pengadaan mengacu pada peraturan Lembaga yang membidangi Pengadaan Barang/ Jasa Pemerintah.</li>
+                                <li>Dalam pelaksanaan sistem kerja penyederhanaan birokrasi BKKBN, UKPBJ BKKBN dalam melaksanakan tugas dan fungsi dapat menetapkan Tim Kerja.</li>
+                            </ul>
+                        </li>
+                    </ol>
+
+                    <br>
+                </div>
+
+                <!-- UMUM -->
+                <div data-content="umum" class="role-content">
+                    <h2 class="content-title">UKPBJ secara Umum</h2>
+
+                    <p>
+                        <br>
+                        Dalam melaksanakan tugasnya, UKPBJ Kemendukbangga/BKKBN memiliki fungsi:
+                        <br><br>
+                    </p>
+
+                    <ol>
+                        <li>Pengelolaan pengadaan barang/jasa;</li>
+                        <li>Pengelolaan Layanan Pengadaan Secara Elektronik (LPSE);</li>
+                        <li>Pembinaan Sumber Daya Manusia dan Kelembagaan Pengadaan Barang/ Jasa;</li>
+                        <li>Pelaksanaan pendampingan, konsultasi, dan/ atau bimbingan teknis; dan</li>
+                        <li>Pelaksanaan tugas lain yang diberikan oleh Menteri/Kepala Kemendukbangga/BKKBN yang berkaitan dengan tugas dan fungsinya.</li>
+                    </ol>
+
+                    <br>
+
+                    <div class="role-detail-container">
+                        <!-- DETAIL 1 -->
+                        <details class="role-detail">
+                            <summary>Pelaksanaan fungsi pengelolaan Pengadaan Barang/ Jasa oleh UKPBJ Kemendukbangga/ BKKBN meliputi:</summary>
+
+                            <ol>
+                                <li>Inventarisasi paket pengadaan barang/ jasa;</li>
+                                <li>Pelaksanaan riset dan analisis pasar barang/jasa;</li>
+                                <li>Penyusunan strategi pengadaan barang/ jasa;</li>
+                                <li>Penyiapan dan pengelolaan dokumen pemilihan beserta dokumen pendukung lainnya dan informasi yang dibutuhkan;</li>
+                                <li>Pelaksanaan pemilihan penyedia barang/ jasa;</li>
+                                <li>Penyusunan dan pengelolaan katalog elektronik lokal/ sektoral;</li>
+                                <li>Monitoring dan evaluasi pelaksanaan pengadaan barang/jasa pemerintah; dan</li>
+                                <li>Membantu perencanaan dan pengelolaan kontrak pengadaan barang/jasa pemerintah.</li>
+                            </ol>
+                            <br>
+                        </details>
+
+                        <!-- DETAIL 2 -->
+                        <details class="role-detail">
+                            <summary>Pelaksanaan fungsi pengelolaan Layanan Pengadaan Secara Elektronik oleh UKPBJ Kemendukbangga/ BKKBN meliputi:</summary>
+
+                            <ol>
+                                <li>Pengelolaan dan koordinasi dalam pelayanan seluruh sistem informasi pengadaan barang/jasa;</li>
+                                <li>Pelaksanaan dan koordinasi dalam layanan registrasi dan verifikasi pengguna seluruh sistem informasi pengadaan barang/ jasa;</li>
+                                <li>Pelayanan informasi pengadaan barang/jasa pemerintah kepada masyarakat luas;</li>
+                                <li>Pengelolaan informasi kontrak;</li>
+                                <li>Mengumpulkan dan mendokumentasikan data barang/jasa hasil pengadaan; dan</li>
+                                <li>Mengelola informasi manajemen barang/jasa hasil pengadaan.</li>
+                            </ol>
+                            <br>
+                        </details>
+
+                        <!-- DETAIL 3 -->
+                        <details class="role-detail">
+                            <summary>Pelaksanaan fungsi Pembinaan Sumber Daya Manusia dan Kelembagaan Pengadaan Barang/jasa dan fungsi Pelaksanaan pendampingan, konsultasi, dan/ atau bimbingan teknis oleh UKPBJ Kemendukbangga/ BKKBN meliputi:</summary>
+
+                            <ol>
+                                <li>Pembinaan bagi para pelaku pengadaan barang/jasa pemerintah, terutama para Pengelola Pengadaan Barang/ Jasa dan personel UKPBJ;</li>
+                                <li>Pengelolaan kelembagaan UKPBJ, antara lain namun tidak terbatas pada pengelolaan dan pengukuran tingkat kematangan UKPBJ, pelaksanaan analisis beban kerja, pengelolaan personil dan pengembangan sistem insentif;</li>
+                                <li>Pengelolaan dan pengukuran kinerja pengadaan barang/ jasa pemerintah;</li>
+                                <li>Pengelolaan manajemen pengetahuan pengadaan barang/jasa pemerintah;</li>
+                                <li>Pembinaan hubungan dengan para pemangku kepentingan;</li>
+                                <li>Bimbingan teknis, pendampingan, dan/ atau konsultasi proses pengadaan barang/jasa pemerintah;</li>
+                                <li>Bimbingan teknis, pendampingan, dan/ atau konsultasi penggunaan seluruh sistem informasi pengadaan barang/jasa pemerintah, meliputi SiRUP, SPSE, e-katalog, e-monev, SIKaP; dan</li>
+                                <li>Bimbingan teknis, pendampingan, dan/ atau konsultasi substansi hukum di bidang pengadaan barang/jasa pemerintah dan layanan penyelesaian sengketa kontrak melalui mediasi.</li>
+                            </ol>
+                        </details>
+                    </div>
+                    
+                    <br>
+                </div>
             </div>
         </section>
     </main>
@@ -303,5 +364,10 @@
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="./src/js/sidebar.js"></script>
+    <script src="./src/js/tentang.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind('[data-fancybox="tentang"]', {});
+    </script>
 </body>
 </html>
