@@ -149,6 +149,23 @@
     padding-left: 24px;
 }
 
+/* ---------- 3 ---------- */
+.struktur-img-container {
+    width: 100%;
+}
+
+.struktur-img-container img {
+    width: 100%;
+    object-fit: contain;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.struktur-img-container img:hover, 
+.struktur-img-container img:focus {
+    filter: brightness(0.4);
+}
+
 /* TAB VIEW */
 @media (min-width: 768px) {
     /* ---------- 2 ---------- */
@@ -185,6 +202,11 @@
         flex: auto;
         border-top: 1px solid #EEEEEE;
         border-radius: 0 8px 8px 8px;
+    }
+
+    /* ---------- 3 ---------- */
+    .beranda.struktur {
+        max-width: none;
     }
 }
 
@@ -226,5 +248,15 @@
     .role-content-container {
         min-height: 450px;
         padding: 16px;
+    }
+
+    /* ---------- 3 ---------- */
+    .beranda.struktur {
+        max-width: 900px;
+    }
+
+    /* ---------- 4 ---------- */
+    .beranda.struktur.anggota {
+        max-width: none;
     }
 }

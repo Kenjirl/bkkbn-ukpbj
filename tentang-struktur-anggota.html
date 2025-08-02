@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#7dbde5" />
+    <meta name="description" content="Website resmi Unit Kerja Pengadaan Barang/Jasa BKKBN. Informasi mengenai pengadaan barang dan jasa pemerintah di Kementerian Kependudukan dan Pembangunan Keluarga.">
+    <meta name="keywords" content="UKPBJ, BKKBN, Pengadaan Barang, Pengadaan Jasa, Kementerian Kependudukan, Pembangunan Keluarga, Informasi Pengadaan, Layanan Pengadaan, Galeri UKPBJ, Tentang UKPBJ">
+    <meta name="author" content="UKPBJ BKKBN">
+
+    <link rel="shortcut icon" href="./src/icon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/icon/favicon-16x16.png">
+    <link rel="manifest" href="./src/icon/site.webmanifest">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/tentang.css">
+    <script src="https://kit.fontawesome.com/5b8fa639bb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css"/>
+
+    <title>Struktur Anggota | UKPBJ BKKBN</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <div class="logo-container">
+            <div>
+                <a href="https://www.kemendukbangga.go.id/" target="_blank">
+                    <img src="./src/imgs/logo/bkkbn.png" alt="Logo BKKBN">
+                </a>
+            </div>
+            <div>
+                <a href="./index.html">
+                    <img src="./src/imgs/logo/ukpbj.png" alt="Logo UKPBJ">
+                </a>
+            </div>
+        </div>
+        <div class="header-divider"></div>
+        <nav class="nav">
+            <div class="nav-links">
+                <div class="nav-link-wrapper">
+                    <a class="link-btn" href="./index.html">Beranda</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <button class="link-btn">Informasi</button>
+
+                    <div class="dropdown-content dropdown-content-info">
+                        <a target="_blank" href="https://jdih.lkpp.go.id/regulation/index">Peraturan</a>
+                        <a target="_blank" href="https://inaproc.id/unduh">Panduan</a>
+                        <a target="_blank" href="https://drive.google.com/drive/folders/1WjPnDzo-bfG_wsj7fn0tL76ebXLcBjLx?usp=sharing">Standar Operasional Prosedur</a>
+                        <a target="_blank" href="#">Infografis PBJ</a>
+                    </div>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a class="link-btn" href="./layanan.html">Layanan</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a class="link-btn" href="./galeri.html">Galeri</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <button class="link-btn">Tentang</button>
+
+                    <div class="dropdown-content dropdown-content-about">
+                        <a href="./tentang-ukpbj.html">UKPBJ</a>
+                        <a href="./tentang-tugas-dan-fungsi.html">Tugas dan Fungsi</a>
+                        <a href="./tentang-struktur-organisasi.html">Struktur Organisasi</a>
+                        <a href="./tentang-struktur-anggota.html">Struktur Anggota</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-btn-wrapper">
+                <button class="toggle-nav-btn" id="open_nav_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <div class="logo-container">
+            <div>
+                <a target="_blank" href="https://www.kemendukbangga.go.id/">
+                    <img src="./src/imgs/logo/bkkbn.png" alt="Logo BKKBN">
+                </a>
+            </div>
+            <div>
+                <a href="/index.html">
+                    <img src="./src/imgs/logo/ukpbj.png" alt="Logo UKPBJ">
+                </a>
+            </div>
+        </div>
+        <div class="header-divider"></div>
+
+        <div class="nav-btn-wrapper">
+            <button class="toggle-nav-btn" id="close_nav_btn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <div class="sidebar-links">
+            <div class="sidebar-link-wrapper">
+                <a class="link-btn" href="./index.html">Beranda</a>
+            </div>
+
+            <div class="sidebar-link-wrapper">
+                <div class="dropdown-btn-wrapper">
+                    <button class="link-btn">Informasi</button>
+
+                    <button class="dropdown-btn">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </div>
+
+                <div class="dropdown-content dropdown-content-info">
+                    <a target="_blank" href="https://jdih.lkpp.go.id/regulation/index">Peraturan</a>
+                    <a target="_blank" href="https://inaproc.id/unduh">Panduan</a>
+                    <a target="_blank" href="https://drive.google.com/drive/folders/1WjPnDzo-bfG_wsj7fn0tL76ebXLcBjLx?usp=sharing">Standar Operasional Prosedur</a>
+                    <a target="_blank" href="#">Infografis PBJ</a>
+                </div>
+            </div>
+
+            <div class="sidebar-link-wrapper">
+                <a class="link-btn" href="./layanan.html">Layanan</a>
+            </div>
+
+            <div class="sidebar-link-wrapper">
+                <a class="link-btn" href="./galeri.html">Galeri</a>
+            </div>
+
+            <div class="sidebar-link-wrapper">
+                <div class="dropdown-btn-wrapper">
+                    <button class="link-btn">Tentang</button>
+
+                    <button class="dropdown-btn">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </div>
+
+                <div class="dropdown-content dropdown-content-about">
+                    <a href="./tentang-ukpbj.html">UKPBJ</a>
+                    <a href="./tentang-tugas-dan-fungsi.html">Tugas dan Fungsi</a>
+                    <a href="./tentang-struktur-organisasi.html">Struktur Organisasi</a>
+                    <a href="./tentang-struktur-anggota.html">Struktur Anggota</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTENT -->
+    <main class="beranda struktur anggota">
+        <h1>Struktur Anggota</h1>
+
+        <section>
+            <div class="struktur-img-container">
+                <img tabindex="0" loading="lazy"
+                    src="./src/imgs/tentang/struktur-anggota.jpg"
+                    alt="Struktur Anggota"
+                    data-caption="Struktur Anggota"
+                    data-fancybox="tentang">
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content-container">
+            <div class="footer-content">
+                <div class="logo-container">
+                    <div>
+                        <img src="./src/imgs/logo/ukpbj.png" alt="Logo UKPBJ">
+                    </div>
+                    <div>
+                        <img src="./src/imgs/logo/bkkbn.png" alt="Logo BKKBN">
+                    </div>
+                </div>
+
+                <div class="footer-image-container">
+                    <img class="footer-image"
+                        src="./src/imgs/footer/indonesia.png" alt="Pulau Indonesia">
+                </div>
+
+                <p>
+                    "Unit Kerja Pengadaan Barang/Jasa <br>
+                    Biro Umum dan Pengelolaan Barang Milik Negara <br>
+                    Kementerian Kependudukan dan Pembangunan Keluarga (BKKBN)"
+                </p>
+            </div>
+
+            <div class="footer-content footer-links-container">
+                <div class="footer-links">
+                    <div class="footer-links-title">
+                        <h2>Tentang</h2>
+                    </div>
+                    <div class="footer-links-list">
+                        <ul>
+                            <li><a href="./tentang-ukpbj.html">UKPBJ</a></li>
+                            <li><a href="./tentang-tugas-dan-fungsi.html">Tugas dan Fungsi</a></li>
+                            <li><a href="./tentang-struktur-organisasi.html">Struktur Organisasi</a></li>
+                            <li><a href="./tentang-struktur-anggota.html">Struktur Anggota</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-links-title">
+                        <h2>Tautan</h2>
+                    </div>
+                    <div class="footer-links-list">
+                        <ul>
+                            <li><a target="_blank" href="https://www.kemendukbangga.go.id/">Kementerian Kependudukan dan Pembangunan Keluarga/BKKBN</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-content footer-links-container">
+                <div class="footer-links">
+                    <div class="footer-links-title">
+                        <h2>Kontak Kami</h2>
+                    </div>
+                    <div class="footer-links-list">
+                        <ul>
+                            <li><a target="_blank" href="#">
+                                <i class="fa-solid fa-phone"></i>
+                                (021) 8009029 ext 741
+                            </a></li>
+                            <li><a target="_blank" href="#">
+                                <i class="fa-solid fa-fax"></i>
+                                (021) 8097387
+                            </a></li>
+                            <li><a target="_blank" href="mailto:lpse@bkkbn.go.id">
+                                <i class="fa-solid fa-envelope"></i> 
+                                email@gmail.com</a>
+                            </li>
+                            <li><a target="_blank" href="https://maps.app.goo.gl/AW9bTUop85dtAwua7">
+                                <i class="fa-solid fa-map-marker-alt"></i> 
+                                Jl. Permata No. 1 Halim Perdanakusuma Jakarta Timur 13650
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="copyright-container">
+            <p>
+                Copyright U<span class="text-red">K</span>PBJ BKKBN &copy; 2025
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./src/js/sidebar.js"></script>
+    <script src="./src/js/tentang.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind('[data-fancybox="tentang"]', {});
+    </script>
+</body>
+</html>
