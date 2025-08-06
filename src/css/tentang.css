@@ -150,8 +150,20 @@
 }
 
 /* ---------- 3 ---------- */
+.anggota h1 {
+    display: none;
+}
+
+.anggota h2 {
+    width: 100%;
+    font-size: 32px;
+    /* line-height: 20px; */
+    text-align: center;
+}
+
 .struktur-img-container {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .struktur-img-container img {
